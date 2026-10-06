@@ -322,7 +322,13 @@ function App() {
         <span>
           Mainnet Factory: <a href={`${BOT_CHAIN.explorerUrl}/address/${CONTRACT_CONFIG.factoryAddress}`} target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>{CONTRACT_CONFIG.factoryAddress}</a>
         </span>
-        <span className="footer-right">BOT Chain Mainnet · Chain ID {BOT_CHAIN.chainId}</span>
+        <span className="footer-right">
+          <a href="https://botchain.ai" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>BOTCHAIN</a>
+          {' · '}
+          <a href="https://scan.botchain.ai" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>BOTSCAN</a>
+          {' · '}
+          Chain ID {BOT_CHAIN.chainId}
+        </span>
       </footer>
     </div>
   );
