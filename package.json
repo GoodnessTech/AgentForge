@@ -1,0 +1,23 @@
+{
+  "name": "agentforge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "cd \"AgentForge Frontend\" && pnpm install && pnpm run build",
+    "dev": "cd \"AgentForge Frontend\" && pnpm run dev",
+    "preview": "cd \"AgentForge Frontend\" && pnpm run preview",
+    "test": "node test/agentforge.test.mjs",
+    "compile": "node scripts/compile.mjs",
+    "deploy:contracts": "node scripts/deploy.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "solc": "^0.8.24"
+  },
+  "devDependencies": {
+    "ganache": "^7.9.2",
+    "hardhat": "^3.18.1"
+  }
+}

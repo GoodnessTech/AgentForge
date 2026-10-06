@@ -1,0 +1,20 @@
+{
+  "chainId": 677,
+  "network": "BOT Chain Mainnet",
+  "rpcUrl": "https://rpc.botchain.ai",
+  "vaultImplementation": "0xfcfa014985b4a8536be59007426c66292e390d1a",
+  "factoryAddress": "0xe885c275272d3433d1413cae803c2e8c8481ea8b",
+  "deployerAddress": "0x34a19B30d9edD62424802d323E81c25599A9f02e",
+  "vaultTxHash": "0x8fd807e7850b5792adb457731ffc450dc2335c2e7d19d9e3c24e12732dba322e",
+  "factoryTxHash": "0x76cc2e2bf42a5eb6f84359f091f0bb901cd153de531ee449269612514e3fb16f",
+  "deployedAt": "2026-10-06T11:45:51.715Z",
+  "genesisAgent": {
+    "id": 1,
+    "name": "Nexus Sentinel",
+    "vault": "0x5e95F7169749d73Dfc4fab17AB2b60146d05eA3d",
+    "createTxHash": "0x6e593c10ba3fa3bd08ea2055f2d8b24f7c9efb501d5ca37f574e591e069689c7",
+    "fundingTxHash": "0x513653796539493937451e57ef38889eab9130f92857e413e653f6853e98e29a",
+    "initialFunded": "0.005 BOT",
+    "target": "1.0 BOT"
+  }
+}
